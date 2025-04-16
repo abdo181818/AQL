@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da61882f-0f4e-43b2-99e6-d0dc2bc8a4f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/AnagramCorrection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/BinarySearchCorrection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/FizzBuzzCorrection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/QuadraticEquationCorrection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/RomanNumeralCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/Correction/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/Correction/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/Correction/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/Correction/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/Correction/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/Correction/RomanNumeral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/BranchCoverageTest/Exo1TestCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/BranchCoverageTest/Exo2TestCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/BranchCoverageTest/Exo3TestCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/BranchCoverageTest/Exo4TestCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/BranchCoverageTest/Exo5TestCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/BranchCoverageTest/Exo6TestCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/ConditionCoverageTest/Exo1TestCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/ConditionCoverageTest/Exo2TestCorrection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,10 +55,16 @@
     "JUnit.BankAccountTest.executor": "Run",
     "JUnit.Exo1Test (1).executor": "Coverage",
     "JUnit.Exo1Test.executor": "Coverage",
+    "JUnit.Exo1TestCorrection.executor": "Coverage",
     "JUnit.Exo2Test (1).executor": "Coverage",
     "JUnit.Exo2Test (2).executor": "Coverage",
     "JUnit.Exo2Test.executor": "Coverage",
+    "JUnit.Exo2TestCorrection.executor": "Coverage",
+    "JUnit.Exo3TestCorrection.executor": "Coverage",
+    "JUnit.Exo4TestCorrection.executor": "Coverage",
+    "JUnit.Exo5TestCorrection.executor": "Coverage",
     "JUnit.Exo6Test.executor": "Coverage",
+    "JUnit.Exo6TestCorrection.executor": "Coverage",
     "JUnit.FactorialTest.executor": "Run",
     "JUnit.FibonacciTest.executor": "Run",
     "JUnit.PalindromeCorrectionTest.executor": "Coverage",
@@ -74,23 +89,7 @@
       <recent name="org.example.TP0" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnagramTest">
-    <configuration name="AnagramTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TP1.ConditionCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP1.AnagramTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Exo6TestCorrection (1)">
     <configuration name="Exo1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -101,68 +100,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.TP1.BranchCoverageTest" />
       <option name="MAIN_CLASS_NAME" value="org.example.TP1.BranchCoverageTest.Exo1Test" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exo1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TP1.BranchCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP1.BranchCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP1.BranchCoverageTest.Exo1Test" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exo2Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TP1.ConditionCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP1.ConditionCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP1.ConditionCoverageTest.Exo2Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exo2Test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TP1.LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP1.LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP1.LineCoverageTest.Exo2Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exo2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TP1.BranchCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP1.BranchCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP1.BranchCoverageTest.Exo2Test" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -185,20 +122,95 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exo3TestCorrection (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TP1.ConditionCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TP1.ConditionCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP1.ConditionCoverageTest.Exo3TestCorrection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exo4TestCorrection (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TP1.ConditionCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TP1.ConditionCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP1.ConditionCoverageTest.Exo4TestCorrection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exo5TestCorrection (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TP1.ConditionCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TP1.ConditionCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP1.ConditionCoverageTest.Exo5TestCorrection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exo6TestCorrection (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TP1.ConditionCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TP1.ConditionCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP1.ConditionCoverageTest.Exo6TestCorrection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exo6TestCorrection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TP1.BranchCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TP1.BranchCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP1.BranchCoverageTest.Exo6TestCorrection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Exo1Test" />
-      <item itemvalue="JUnit.AnagramTest" />
-      <item itemvalue="JUnit.Exo2Test" />
-      <item itemvalue="JUnit.Exo2Test (1)" />
-      <item itemvalue="JUnit.Exo2Test (2)" />
+      <item itemvalue="JUnit.Exo3TestCorrection (1)" />
+      <item itemvalue="JUnit.Exo4TestCorrection (1)" />
+      <item itemvalue="JUnit.Exo5TestCorrection (1)" />
+      <item itemvalue="JUnit.Exo6TestCorrection" />
+      <item itemvalue="JUnit.Exo6TestCorrection (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnagramTest" />
-        <item itemvalue="JUnit.Exo2Test" />
-        <item itemvalue="JUnit.Exo1Test" />
-        <item itemvalue="JUnit.Exo2Test (2)" />
-        <item itemvalue="JUnit.Exo2Test (1)" />
+        <item itemvalue="JUnit.Exo6TestCorrection (1)" />
+        <item itemvalue="JUnit.Exo5TestCorrection (1)" />
+        <item itemvalue="JUnit.Exo3TestCorrection (1)" />
+        <item itemvalue="JUnit.Exo4TestCorrection (1)" />
+        <item itemvalue="JUnit.Exo6TestCorrection" />
       </list>
     </recent_temporary>
   </component>
@@ -217,8 +229,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/untitled$PalindromeCorrectionTest.ic" NAME="PalindromeCorrectionTest Coverage Results" MODIFIED="1744204649256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.example.TP1.*</FILTER>
+    <SUITE FILE_PATH="coverage/untitled$Exo3TestCorrection.ic" NAME="Exo3TestCorrection Coverage Results" MODIFIED="1744810780125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo2Test.ic" NAME="Exo2Test Coverage Results" MODIFIED="1744206722205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
@@ -229,20 +241,38 @@
     <SUITE FILE_PATH="coverage/untitled$Exo2Test__2_.ic" NAME="Exo2Test (2) Coverage Results" MODIFIED="1744206804372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.LineCoverageTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/untitled$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1744203277656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/untitled$Exo6TestCorrection.ic" NAME="Exo6TestCorrection Coverage Results" MODIFIED="1744811168709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$Exo1Test__1_.ic" NAME="Exo1Test (1) Coverage Results" MODIFIED="1744207108146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$Exo2TestCorrection.ic" NAME="Exo2TestCorrection Coverage Results" MODIFIED="1744810696106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$Exo4TestCorrection.ic" NAME="Exo4TestCorrection Coverage Results" MODIFIED="1744811006331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$PalindromeCorrectionTest.ic" NAME="PalindromeCorrectionTest Coverage Results" MODIFIED="1744204649256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo2Test__1_.ic" NAME="Exo2Test (1) Coverage Results" MODIFIED="1744206745162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.ConditionCoverageTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/untitled$Exo1Test__1_.ic" NAME="Exo1Test (1) Coverage Results" MODIFIED="1744207108146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
+    <SUITE FILE_PATH="coverage/untitled$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1744203277656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo6Test.ic" NAME="Exo6Test Coverage Results" MODIFIED="1744207640362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.ConditionCoverageTest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$Exo1TestCorrection.ic" NAME="Exo1TestCorrection Coverage Results" MODIFIED="1744810600594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/untitled$AnagramTest.ic" NAME="AnagramTest Coverage Results" MODIFIED="1744207851088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.ConditionCoverageTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$Exo5TestCorrection.ic" NAME="Exo5TestCorrection Coverage Results" MODIFIED="1744811096974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
     </SUITE>
   </component>
 </project>
