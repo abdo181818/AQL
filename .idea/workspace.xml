@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da61882f-0f4e-43b2-99e6-d0dc2bc8a4f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/LineCoverageTest/Exo1TestCorrection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP1/LineCoverageTest/Exo2TestCorrection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/Calculatrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/EXO2/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/EXO2/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/EXO2/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/EXO2/UtilisateurApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/EXO3/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/EXO3/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/EXO3/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/EXO3/UtilisateurApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP2/CalculatriceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP2/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +51,7 @@
     "JUnit.AnagramTest.executor": "Coverage",
     "JUnit.BankAccountTest (1).executor": "Run",
     "JUnit.BankAccountTest.executor": "Run",
+    "JUnit.CalculatriceTest.executor": "Run",
     "JUnit.Exo1Test (1).executor": "Coverage",
     "JUnit.Exo1Test.executor": "Coverage",
     "JUnit.Exo1TestCorrection.executor": "Coverage",
@@ -50,10 +61,11 @@
     "JUnit.Exo2TestCorrection.executor": "Coverage",
     "JUnit.Exo3TestCorrection (1).executor": "Coverage",
     "JUnit.Exo3TestCorrection.executor": "Coverage",
+    "JUnit.Exo4TestCOrrection.executor": "Coverage",
     "JUnit.Exo4TestCorrection (1).executor": "Coverage",
     "JUnit.Exo4TestCorrection.executor": "Coverage",
     "JUnit.Exo5TestCorrection (1).executor": "Coverage",
-    "JUnit.Exo5TestCorrection.executor": "Coverage",
+    "JUnit.Exo5TestCorrection.executor": "Run",
     "JUnit.Exo6Test.executor": "Coverage",
     "JUnit.Exo6TestCorrection (1).executor": "Coverage",
     "JUnit.Exo6TestCorrection.executor": "Coverage",
@@ -65,6 +77,7 @@
     "JUnit.RomanNumeralTest.executor": "Run",
     "JUnit.RomanNumeralTestt.executor": "Run",
     "JUnit.StackTest.executor": "Run",
+    "JUnit.UserServiceTest.executor": "Coverage",
     "JUnit.leapYearsTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -72,7 +85,8 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "F:/AQL/untitled/src/test/java",
-    "last_opened_file_path": "F:/AQL/untitled"
+    "last_opened_file_path": "F:/AQL/untitled",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,7 +95,22 @@
       <recent name="org.example.TP0" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Exo6TestCorrection">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
+    <configuration name="CalculatriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TP2.EXO2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TP2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP2.CalculatriceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exo1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -98,21 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exo2TestCorrection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TP1.LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP1.LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP1.LineCoverageTest.Exo2TestCorrection" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Exo2Test" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -124,21 +138,6 @@
       <option name="PACKAGE_NAME" value="org.example.TP1.LineCoverageTest" />
       <option name="MAIN_CLASS_NAME" value="org.example.TP1.LineCoverageTest.Exo1Test" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exo3TestCorrection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TP1.LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP1.LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP1.LineCoverageTest.Exo3TestCorrection" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,20 +188,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TP2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TP2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP2.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Exo2TestCorrection" />
-      <item itemvalue="JUnit.Exo3TestCorrection" />
+      <item itemvalue="JUnit.CalculatriceTest" />
       <item itemvalue="JUnit.Exo4TestCOrrection" />
       <item itemvalue="JUnit.Exo5TestCorrection" />
       <item itemvalue="JUnit.Exo6TestCorrection" />
+      <item itemvalue="JUnit.UserServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.CalculatriceTest" />
         <item itemvalue="JUnit.Exo6TestCorrection" />
         <item itemvalue="JUnit.Exo5TestCorrection" />
         <item itemvalue="JUnit.Exo4TestCOrrection" />
-        <item itemvalue="JUnit.Exo3TestCorrection" />
-        <item itemvalue="JUnit.Exo2TestCorrection" />
       </list>
     </recent_temporary>
   </component>
@@ -221,8 +235,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/untitled$Exo3TestCorrection.ic" NAME="Exo3TestCorrection Coverage Results" MODIFIED="1744810780125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
+    <SUITE FILE_PATH="coverage/untitled$Exo3TestCorrection.ic" NAME="Exo3TestCorrection Coverage Results" MODIFIED="1744811932450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.LineCoverageTest.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo2Test.ic" NAME="Exo2Test Coverage Results" MODIFIED="1744206722205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
@@ -233,14 +247,20 @@
     <SUITE FILE_PATH="coverage/untitled$Exo6TestCorrection__1_.ic" NAME="Exo6TestCorrection (1) Coverage Results" MODIFIED="1744811604966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.ConditionCoverageTest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$Exo4TestCOrrection.ic" NAME="Exo4TestCOrrection Coverage Results" MODIFIED="1744811992749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.LineCoverageTest.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo2Test__2_.ic" NAME="Exo2Test (2) Coverage Results" MODIFIED="1744206804372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.LineCoverageTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/untitled$Exo6TestCorrection.ic" NAME="Exo6TestCorrection Coverage Results" MODIFIED="1744811168709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo3TestCorrection__1_.ic" NAME="Exo3TestCorrection (1) Coverage Results" MODIFIED="1744811520489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.ConditionCoverageTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$Exo6TestCorrection.ic" NAME="Exo6TestCorrection Coverage Results" MODIFIED="1744812089863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.LineCoverageTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1744816154514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP2.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo5TestCorrection__1_.ic" NAME="Exo5TestCorrection (1) Coverage Results" MODIFIED="1744811557923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.ConditionCoverageTest.*</FILTER>
@@ -248,14 +268,17 @@
     <SUITE FILE_PATH="coverage/untitled$Exo1Test__1_.ic" NAME="Exo1Test (1) Coverage Results" MODIFIED="1744207108146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/untitled$Exo2TestCorrection.ic" NAME="Exo2TestCorrection Coverage Results" MODIFIED="1744810696106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
+    <SUITE FILE_PATH="coverage/untitled$Exo2TestCorrection.ic" NAME="Exo2TestCorrection Coverage Results" MODIFIED="1744811886354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP1.LineCoverageTest.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo4TestCorrection.ic" NAME="Exo4TestCorrection Coverage Results" MODIFIED="1744811006331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.BranchCoverageTest.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/untitled$Exo4TestCorrection__1_.ic" NAME="Exo4TestCorrection (1) Coverage Results" MODIFIED="1744811514021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.ConditionCoverageTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$CalculatriceTest.ic" NAME="CalculatriceTest Coverage Results" MODIFIED="1744815416147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TP2.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/untitled$PalindromeCorrectionTest.ic" NAME="PalindromeCorrectionTest Coverage Results" MODIFIED="1744204649256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.TP1.*</FILTER>
