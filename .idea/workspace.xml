@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da61882f-0f4e-43b2-99e6-d0dc2bc8a4f4" name="Changes" comment="" />
+    <list default="true" id="da61882f-0f4e-43b2-99e6-d0dc2bc8a4f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP3/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,59 +38,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.AnagramTest.executor": "Coverage",
-    "JUnit.BankAccountTest (1).executor": "Run",
-    "JUnit.BankAccountTest.executor": "Run",
-    "JUnit.CalculatriceTest.executor": "Run",
-    "JUnit.Exo1Test (1).executor": "Coverage",
-    "JUnit.Exo1Test.executor": "Coverage",
-    "JUnit.Exo1TestCorrection.executor": "Coverage",
-    "JUnit.Exo2Test (1).executor": "Coverage",
-    "JUnit.Exo2Test (2).executor": "Coverage",
-    "JUnit.Exo2Test.executor": "Coverage",
-    "JUnit.Exo2TestCorrection.executor": "Coverage",
-    "JUnit.Exo3TestCorrection (1).executor": "Coverage",
-    "JUnit.Exo3TestCorrection.executor": "Coverage",
-    "JUnit.Exo4TestCOrrection.executor": "Coverage",
-    "JUnit.Exo4TestCorrection (1).executor": "Coverage",
-    "JUnit.Exo4TestCorrection.executor": "Coverage",
-    "JUnit.Exo5TestCorrection (1).executor": "Coverage",
-    "JUnit.Exo5TestCorrection.executor": "Run",
-    "JUnit.Exo6Test.executor": "Coverage",
-    "JUnit.Exo6TestCorrection (1).executor": "Coverage",
-    "JUnit.Exo6TestCorrection.executor": "Coverage",
-    "JUnit.FactorialTest.executor": "Run",
-    "JUnit.FibonacciTest.executor": "Run",
-    "JUnit.JeuTest.executor": "Coverage",
-    "JUnit.PalindromeCorrectionTest.executor": "Coverage",
-    "JUnit.PalindromeTest.executor": "Coverage",
-    "JUnit.PersonTest.executor": "Run",
-    "JUnit.RomanNumeralTest.executor": "Run",
-    "JUnit.RomanNumeralTestt.executor": "Run",
-    "JUnit.StackTest.executor": "Run",
-    "JUnit.UserServiceTest.executor": "Coverage",
-    "JUnit.UserServiceTest3.executor": "Coverage",
-    "JUnit.leapYearsTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "F:/AQL/untitled/src/test/java",
-    "last_opened_file_path": "F:/AQL/untitled",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.AnagramTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.BankAccountTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankAccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatriceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Exo1Test (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo1Test.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo1TestCorrection.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo2Test (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo2Test (2).executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo2Test.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo2TestCorrection.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo3TestCorrection (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo3TestCorrection.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo4TestCOrrection.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo4TestCorrection (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo4TestCorrection.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo5TestCorrection (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo5TestCorrection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Exo6Test.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo6TestCorrection (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Exo6TestCorrection.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.FactorialTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FibonacciTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JeuTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.PalindromeCorrectionTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.PalindromeTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RomanNumeralTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RomanNumeralTestt.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StackTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.UserServiceTest3.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.leapYearsTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;F:/AQL/untitled/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/AQL/untitled&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.TP1" />
       <recent name="org.example.TP0" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JeuTest">
+  <component name="RunManager" selected="JUnit.UserServiceTest (1)">
     <configuration name="CalculatriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -100,21 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exo6TestCorrection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TP1.LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP1.LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP1.LineCoverageTest.Exo6TestCorrection" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JeuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -125,6 +116,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.TP2" />
       <option name="MAIN_CLASS_NAME" value="org.example.TP2.JeuTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.TP3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.TP3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP3.UserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,19 +167,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.UserServiceTest (1)" />
       <item itemvalue="JUnit.JeuTest" />
       <item itemvalue="JUnit.CalculatriceTest" />
-      <item itemvalue="JUnit.Exo6TestCorrection" />
       <item itemvalue="JUnit.UserServiceTest" />
       <item itemvalue="JUnit.UserServiceTest3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest (1)" />
         <item itemvalue="JUnit.JeuTest" />
         <item itemvalue="JUnit.UserServiceTest3" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.CalculatriceTest" />
-        <item itemvalue="JUnit.Exo6TestCorrection" />
       </list>
     </recent_temporary>
   </component>
