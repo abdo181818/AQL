@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da61882f-0f4e-43b2-99e6-d0dc2bc8a4f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP3/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/ProductApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP3/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP4/Tp3IntegrationTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP4/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP4/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP4/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP3/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP3/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP4/MyIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TP4/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +79,18 @@
     &quot;JUnit.FactorialTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FibonacciTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.JeuTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MyIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderControllerTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.PalindromeCorrectionTest.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.PalindromeTest.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.RomanNumeralTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.RomanNumeralTestt.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.StackTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.UserServiceTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.UserServiceTest.testGetAllUsers.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.UserServiceTest3.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.leapYearsTest.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -80,48 +99,52 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;F:/AQL/untitled/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/AQL/untitled&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.TP4" />
       <recent name="org.example.TP1" />
       <recent name="org.example.TP0" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest (1)">
-    <configuration name="CalculatriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyIntegrationTest">
+    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.TP2.EXO2.*" />
+          <option name="PATTERN" value="org.example.TP0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP2.CalculatriceTest" />
+      <option name="PACKAGE_NAME" value="org.example.TP0" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP0.BankAccountTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JeuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.TP2.*" />
+          <option name="PATTERN" value="org.example.TP4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP2.JeuTest" />
+      <option name="PACKAGE_NAME" value="org.example.TP4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP4.MyIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -130,56 +153,57 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.TP3" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP3.UserServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP3.OrderControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.TP2.EXo4.*" />
+          <option name="PATTERN" value="org.example.TP3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP2.UserServiceTest" />
+      <option name="PACKAGE_NAME" value="org.example.TP3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP3.ProductServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest.testGetAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.TP2.EXo4.*" />
+          <option name="PATTERN" value="org.example.TP4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.TP2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TP2.UserServiceTest3" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.TP4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TP4.UserServiceTest" />
+      <option name="METHOD_NAME" value="testGetAllUsers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserServiceTest (1)" />
-      <item itemvalue="JUnit.JeuTest" />
-      <item itemvalue="JUnit.CalculatriceTest" />
-      <item itemvalue="JUnit.UserServiceTest" />
-      <item itemvalue="JUnit.UserServiceTest3" />
+      <item itemvalue="JUnit.BankAccountTest" />
+      <item itemvalue="JUnit.UserServiceTest.testGetAllUsers" />
+      <item itemvalue="JUnit.MyIntegrationTest" />
+      <item itemvalue="JUnit.OrderControllerTest" />
+      <item itemvalue="JUnit.ProductServiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest (1)" />
-        <item itemvalue="JUnit.JeuTest" />
-        <item itemvalue="JUnit.UserServiceTest3" />
-        <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.CalculatriceTest" />
+        <item itemvalue="JUnit.MyIntegrationTest" />
+        <item itemvalue="JUnit.UserServiceTest.testGetAllUsers" />
+        <item itemvalue="JUnit.BankAccountTest" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+        <item itemvalue="JUnit.OrderControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +217,17 @@
       <updated>1742554118583</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
